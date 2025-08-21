@@ -3,6 +3,6 @@
   "compilerOptions": {
     "outDir": "dist"
   },
-  "include": ["src", "../../apps/user/app/components/dashboard.tsx"],
+  "include": ["src", "../../apps/user/app/components/navabar.tsx"],
   "exclude": ["node_modules", "dist"]
 }
