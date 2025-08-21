@@ -19,8 +19,9 @@
     "eslint": "^9.31.0",
     "typescript": "5.8.2"
   },
-  "dependencies": {
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   }
 }
+
