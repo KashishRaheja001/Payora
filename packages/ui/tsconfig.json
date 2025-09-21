@@ -1,8 +1,15 @@
 {
-  "extends": "@repo/typescript-config/react-library.json",
   "compilerOptions": {
-    "outDir": "dist"
+    "jsx": "react-jsx",        // 👈 this enables JSX in TS
+    "rootDir": "src",
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "declaration": true,
+    "emitDeclarationOnly": true
   },
-  "include": ["src", "../../apps/user/app/components/navabar.tsx"],
+  "include": ["src"],
   "exclude": ["node_modules", "dist"]
 }

@@ -5,13 +5,10 @@ export default function LoginLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className="antialiased bg-gray-300"
-      >
-
-        {children}
-      </body>
-    </html>
+    <main
+      className="antialiased bg-gray-300"
+    >
+      {children}
+    </main>
   );
 }
